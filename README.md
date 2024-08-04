@@ -19,4 +19,4 @@ O CSS garante que o layout seja responsivo e agradável aos olhos, com um esquem
 ## Visualização
 Abaixo está uma captura de tela do portfólio em ação:
 
-![Captura de Tela do Portfólio](screenshot.png)
+![Captura de Tela do Portfólio](portifolio.png)
