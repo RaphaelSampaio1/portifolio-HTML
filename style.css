@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(215, 216, 216);
+    margin: 0;
+    padding: 0;
+}
+
+.topbar {
+    background-image: linear-gradient(to right, rgb(17, 17, 17), rgb(4, 4, 185));
+    color: rgb(241, 241, 241);
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.own_photo {
+    margin-left: 15px;
+    width: 70px;
+    border-right: 3px solid black;
+    border-radius: 30px;
+}
+
+.links a {
+    text-align: center;
+    align-items: center;
+    margin-left: 35px;
+    margin-right: 35px;
+    color: rgb(241, 241, 241);
+    text-decoration: none;
+}
+
+.links a img {
+    height: 1em;
+}
+
+.links a:hover {
+    color: rgb(173, 216, 230); /* Azul claro para o hover */
+}
+
+.knowledg {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(241, 241, 241);
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.knowledg:hover {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: underline;
+    transform: scale(1.3);
+}
+
+a:visited {
+    color: rgb(68, 192, 250);
+}
+
+a:hover {
+    color: rgb(173, 216, 230); /* Azul claro para o hover */
+    font-weight: bold;
+    text-decoration: underline;
+    transform: scale(1.3);
+}
+
+.leftbar {
+    background-image: linear-gradient(to right, rgb(17, 17, 17), rgb(4, 4, 185));
+    color: rgb(241, 241, 241);
+    font-size: 16px;
+    width: 350px;
+    border: 1px solid black;
+    position: fixed; /* Fixa o leftbar na lateral */
+    top: 60px; /* Ajusta o topo para não sobrepor o topbar */
+    bottom: 0;
+    left: 0;
+    overflow-y: auto; /* Adiciona rolagem se necessário */
+    margin-right: 10px;
+    padding: 20px; /* Adiciona padding interno */
+    box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
+}
+
+.leftbar h1 {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 0; /* Remove margem superior */
+}
+
+.leftbar ul {
+    padding-left: 0;
+    list-style-type: none;
+    margin-left: 0;
+}
+
+.leftbar li {
+    margin: 10px 0; /* Ajusta o espaçamento dos itens da lista */
+}
+
+.main-content {
+    margin-left: 350px; /* Adiciona margem para não sobrepor o leftbar */
+}
+
+.about_me {
+    background-color: white; /* Para destacar o conteúdo */
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 40px; /* Adiciona margem superior para separar do topo */
+}
